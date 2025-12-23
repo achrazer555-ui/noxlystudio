@@ -52,3 +52,57 @@ a {
 a:hover {
   border-color: #ffffff;
 }
+
+
+/* CTA button */
+header .cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background-color: #fbbf24; /* gold accent */
+  color: #0b0b0b;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+header .cta:hover {
+  background-color: #f59e0b;
+  transform: translateY(-2px);
+}
+
+section:nth-of-type(even) {
+  background-color: #121212; /* slightly lighter dark */
+  padding: 80px 20px;
+  border-radius: 12px;
+}
+
+section:nth-of-type(odd) {
+  background-color: #0b0b0b;
+  padding: 80px 20px;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  header p,
+  section p {
+    font-size: 16px;
+  }
+  header .cta {
+    padding: 10px 20px;
+  }
+}
+
+a:hover {
+  color: #fbbf24;
+  border-color: #fbbf24;
+  transition: 0.3s;
+}
+
+
